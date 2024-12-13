@@ -69,7 +69,37 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-            
+
+
+            <tr onmouseout="hnerf_stop()" onmouseover="hnerf_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <img src='images/reflec.jpeg' width="160">
+                </div>
+                  <script type="text/javascript">
+                  function hnerf_start() {
+                    document.getElementById('hnerf_image').style.opacity = "1";
+                  }
+
+                  function hnerf_stop() {
+                    document.getElementById('hnerf_image').style.opacity = "0";
+                  }
+                  hnerf_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2411.04810">
+                  <span class="papertitle">Reflective Teacher: Semi-Supervised Multimodal 3D Object Detection in Bird’s-Eye-View via Uncertainty Measure</span>
+                </a>
+                <br>
+                Saheli Hazra, Sudip Das, <strong> Rohit Choudhary </strong>, Arindam Das, Ganesh Sistu, Ciar´an Eising and Ujjwal Bhattacharya. 
+                <br> <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em> 2025.
+                <br>
+                 <a href="https://arxiv.org/pdf/2412.04337">Arxiv</a>
+                <p></p>
+                <p>The framework uses Reflective Teacher to enhance pseudo-labeling in semi-supervised 3D object detection while preventing catastrophic forgetting. Additionally, Geometry-Aware BEV Fusion aligns LiDAR and camera features for precise geometric and semantic mapping.</p>
+              </td>
+            </tr>
 
             <tr onmouseout="hnerf_stop()" onmouseover="hnerf_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
@@ -78,7 +108,7 @@
                   <source src="images/GANESH.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                   </video></div>
-                  <img src='images/Ganesh.png' width="160">
+                  <img src='images/Ganes.png' width="160">
                 </div>
                   <script type="text/javascript">
                   function hnerf_start() {
